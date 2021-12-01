@@ -1,0 +1,145 @@
+#principal{ /*margen*/
+	width: 900px;
+	height: 1000px;
+	border: 1px solid #0d0f11; 
+	margin: auto;
+}
+header{ /*cuerpo*/
+	width: 900px;
+	height: 100px;
+	border: 1px solid #6ECEDA;
+	background-color: #6ECEDA;
+}
+*{
+margin:0px;
+padding:0px;
+}
+			
+#header { /*menu*/
+margin:auto;
+width:900px;
+font-family:Arial, Helvetica, sans-serif;
+}
+ul, ol {
+list-style:none;
+}
+			
+.nav > li {
+float:left;
+}
+			
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+}
+.nav li a:hover {
+background-color:#434343;
+}
+			
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+			
+.nav li:hover > ul {
+display:block;
+}
+			
+.nav li ul li {
+position:relative;
+}
+			
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+#logo{ /*logo*/
+	width: 200px;
+	height: 100px;
+	border: 1px solid #6ECEDA;
+
+}
+
+.menu{
+	width: 408px;
+	height: 50px;
+	border: 1px solid #6ECEDA;
+	float: right;
+	margin-top: -80px;
+	background:#86E3CE;
+}
+
+
+.menu ul li{
+	list-style: none;
+	float:right;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px  solid #FFDD94;
+	color: #EFF7F6;
+}
+.menu:hover{
+ 	background:#FFDD94;
+ 	color: #FFDD94;
+
+}
+#slide{
+	margin-top: 10px;
+	width: 900px;
+	height: 290px;
+}
+
+ #categorias{ /*segundo menu (redes)*/
+ 	width: 900px;
+ 	height: auto; overflow:scroll;
+ 	border: 1px solid #0d0f11;
+ 	margin-top: 11px;
+ }
+ .uno{
+ 	width: 450px;
+ 	height: 530px;
+ 	border: 1px solid #0d0f11;
+ 	float: left;
+ }
+ .dos{
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+ 	background: #0d0f11;
+ 	color: #EFF7F6;
+
+ }
+ .leer-mas{
+ 	text-decoration: none;
+ 	border: 1px solid #6ECEDA;
+ }
+ .leer-mas:hover{
+ 	background: #6ECEDA;
+ 	color: #86E3CE;
+ }
+ #info{ 
+ 	width: 900px;
+ 	height: auto;overflow: hidden;
+ 	border: 1px solid #0d0f11;color: #EFF7F6;
+
+ }
+ .exampleone{
+  background-color: #E5C1C5;
+  color: white;
+}
+/*colores
+#E5C1C5
+#EFF7F6
+#0d0f11
+#6ECEDA
+#86E3CE
+#434343
+#000
+#fff */
